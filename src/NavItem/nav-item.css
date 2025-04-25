@@ -1,0 +1,59 @@
+.nav-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: 121px;
+}
+
+.nav-item .icon-button {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 100px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.nav-item .icon {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.nav-item .star-sharp {
+  height: 35px;
+  position: relative;
+  width: 35px;
+}
+
+.nav-item .home {
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-item.default {
+  background-color: var(--global-Primary);
+}
+
+.nav-item.default .home {
+  color: #ffffff;
+}
+
+.nav-item.variant-2 .home {
+  color: #000000;
+}

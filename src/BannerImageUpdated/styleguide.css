@@ -1,0 +1,43 @@
+:root {
+  --alert-title-font-family: "Inter", Helvetica;
+  --alert-title-font-size: 16px;
+  --alert-title-font-style: normal;
+  --alert-title-font-weight: 400;
+  --alert-title-letter-spacing: 0.15000000596046448px;
+  --alert-title-line-height: 150%;
+  --elevation-1:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-16:
+    0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-3:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-6:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-8:
+    0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+}

@@ -1,0 +1,128 @@
+.player-card {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--global-Primary);
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 284px;
+}
+
+.player-card .app-player-profile-2 {
+  position: relative;
+}
+
+.player-card .women-s-singles {
+  align-self: stretch;
+  color: var(--global-Primary);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.4px;
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 17.3px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.player-card .SUN-yingsha-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.player-card .SUN-yingsha {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.3px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.player-card .frame-7 {
+  position: relative;
+}
+
+.player-card .women-s-singles-2 {
+  align-self: stretch;
+  color: var(--global-Primary);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.4px;
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 17.3px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.player-card .div-wrapper {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.player-card .SUN-yingsha-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.3px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.player-card .property-1-0-default {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.player-card .property-1-0-variant-2 {
+  background-image: url(../appuser/app-player-profile-img-avatar.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 78px;
+  width: 50.25px;
+}
+
+.player-card .property-1-1-default {
+  background-image: url(../appuser/app-player-profile-img-avatar-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 78px;
+  width: 50.25px;
+}
+
+.player-card .property-1-1-variant-2 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 5px;
+}
