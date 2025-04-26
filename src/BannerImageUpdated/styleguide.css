@@ -1,3 +1,317 @@
+/* This snippet is injected by Anima. Feel free to delete this comment. */
+
+:root {
+  --alert-title-font-family: "Inter", Helvetica;
+  --alert-title-font-size: 16px;
+  --alert-title-font-style: normal;
+  --alert-title-font-weight: 400;
+  --alert-title-letter-spacing: 0.15000000596046448px;
+  --alert-title-line-height: 150%;
+  --button-large-font-family: "Inter", Helvetica;
+  --button-large-font-size: 15px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0.46000000834465027px;
+  --button-large-line-height: 26px;
+  --elevation-1:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-16:
+    0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-2:
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-3:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-4:
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-6:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-8:
+    0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --typography-body1-font-family: "Inter", Helvetica;
+  --typography-body1-font-size: 16px;
+  --typography-body1-font-style: normal;
+  --typography-body1-font-weight: 400;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body2-font-family: "Inter", Helvetica;
+  --typography-body2-font-size: 14px;
+  --typography-body2-font-style: normal;
+  --typography-body2-font-weight: 400;
+  --typography-body2-letter-spacing: 0.17000000178813934px;
+  --typography-body2-line-height: 143%;
+  --typography-caption-font-family: "Inter", Helvetica;
+  --typography-caption-font-size: 12px;
+  --typography-caption-font-style: normal;
+  --typography-caption-font-weight: 400;
+  --typography-caption-letter-spacing: 0.4000000059604645px;
+  --typography-caption-line-height: 166%;
+}
+
+/* The end of the injected content. */
+
+/* This snippet is injected by Anima. Feel free to delete this comment. */
+
+:root {
+  --alert-title-font-family: "Inter", Helvetica;
+  --alert-title-font-size: 16px;
+  --alert-title-font-style: normal;
+  --alert-title-font-weight: 400;
+  --alert-title-letter-spacing: 0.15000000596046448px;
+  --alert-title-line-height: 150%;
+  --button-large-font-family: "Inter", Helvetica;
+  --button-large-font-size: 15px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0.46000000834465027px;
+  --button-large-line-height: 26px;
+  --elevation-1:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-16:
+    0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-2:
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-3:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-4:
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-6:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-8:
+    0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+}
+
+/* The end of the injected content. */
+
+/* This snippet is injected by Anima. Feel free to delete this comment. */
+
+:root {
+  --alert-title-font-family: "Inter", Helvetica;
+  --alert-title-font-size: 16px;
+  --alert-title-font-style: normal;
+  --alert-title-font-weight: 400;
+  --alert-title-letter-spacing: 0.15000000596046448px;
+  --alert-title-line-height: 150%;
+  --button-large-font-family: "Inter", Helvetica;
+  --button-large-font-size: 15px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0.46000000834465027px;
+  --button-large-line-height: 26px;
+  --button-small-font-family: "Inter", Helvetica;
+  --button-small-font-size: 13px;
+  --button-small-font-style: normal;
+  --button-small-font-weight: 400;
+  --button-small-letter-spacing: 0.46000000834465027px;
+  --button-small-line-height: 22px;
+  --elevation-1:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-16:
+    0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-2:
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-3:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-4:
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-6:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-8:
+    0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+}
+
+/* The end of the injected content. */
+
+/* This snippet is injected by Anima. Feel free to delete this comment. */
+
+:root {
+  --alert-title-font-family: "Inter", Helvetica;
+  --alert-title-font-size: 16px;
+  --alert-title-font-style: normal;
+  --alert-title-font-weight: 400;
+  --alert-title-letter-spacing: 0.15000000596046448px;
+  --alert-title-line-height: 150%;
+  --button-large-font-family: "Inter", Helvetica;
+  --button-large-font-size: 15px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0.46000000834465027px;
+  --button-large-line-height: 26px;
+  --elevation-1:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-16:
+    0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-2:
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-3:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-4:
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-6:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --elevation-8:
+    0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+  --typography-body1-font-family: "Inter", Helvetica;
+  --typography-body1-font-size: 16px;
+  --typography-body1-font-style: normal;
+  --typography-body1-font-weight: 400;
+  --typography-body1-letter-spacing: 0.15000000596046448px;
+  --typography-body1-line-height: 150%;
+  --typography-body2-font-family: "Inter", Helvetica;
+  --typography-body2-font-size: 14px;
+  --typography-body2-font-style: normal;
+  --typography-body2-font-weight: 400;
+  --typography-body2-letter-spacing: 0.17000000178813934px;
+  --typography-body2-line-height: 143%;
+  --typography-caption-font-family: "Inter", Helvetica;
+  --typography-caption-font-size: 12px;
+  --typography-caption-font-style: normal;
+  --typography-caption-font-weight: 400;
+  --typography-caption-letter-spacing: 0.4000000059604645px;
+  --typography-caption-line-height: 166%;
+}
+
+/* The end of the injected content. */
+
 :root {
   --alert-title-font-family: "Inter", Helvetica;
   --alert-title-font-size: 16px;

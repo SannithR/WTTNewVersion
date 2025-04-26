@@ -1,0 +1,805 @@
+.frame1 {
+  align-items: flex-start;
+  background-color: #000000;
+  border-color: #ee2536;
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 1928px;
+  padding: 10px;
+  position: relative;
+}
+
+.frame1 .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .frame1-wrapper {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+}
+
+.frame1 .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 780px;
+}
+
+.frame1 .div-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .tab-a {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.frame1 .women-s-doubles-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.frame1 .women-s-doubles {
+  color: #ee2536;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame1 .div-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.frame1 .rectangle {
+  background-color: #ffffff;
+  height: 15px;
+  position: relative;
+  width: 1px;
+}
+
+.frame1 .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame1 .div-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .container {
+  align-self: stretch;
+  height: 26.2px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .horizontal-border {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.frame1 .round-of {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.5px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 78px;
+}
+
+.frame1 .round-of-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 265px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.frame1 .round-of-2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.6px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 78px;
+}
+
+.frame1 .horizontal-border-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 515px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.frame1 .round-of-3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.8px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 78px;
+}
+
+.frame1 .quarter-final-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 765px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.frame1 .quarter-final {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.4px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 89px;
+}
+
+.frame1 .semi-final-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 1015px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.frame1 .semi-final {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.9px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 64px;
+}
+
+.frame1 .final-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #858383;
+  height: 26px;
+  left: 1265px;
+  position: absolute;
+  top: 0;
+  width: 310px;
+}
+
+.frame1 .final {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11.7px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 34px;
+}
+
+.frame1 .l-r {
+  align-items: center;
+  display: flex;
+  height: 1401.37px;
+  position: relative;
+  width: 1567px;
+}
+
+.frame1 .div-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  width: 272px;
+}
+
+.frame1 .div-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 88px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .match-card {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .playerlist {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 35px;
+  padding: 4px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .div-8 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.frame1 .div-9 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.frame1 .custom-flags {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.frame1 .icon-button {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
+}
+
+.frame1 .icon {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.frame1 .app-player-profile-img-avatar {
+  height: 26.21px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.frame1 .listitem-text {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.frame1 .div-10 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.frame1 .wang-chuqin {
+  color: transparent;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame1 .span {
+  color: #ffffff;
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+}
+
+.frame1 .text-wrapper-2 {
+  color: #bdbdbd;
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame1 .listitem-text-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.frame1 .element {
+  align-self: stretch;
+  color: transparent;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.frame1 .text-wrapper-3 {
+  color: #ee2536;
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+}
+
+.frame1 .playerlist-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ee2536;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 35px;
+  padding: 4px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .match-timings {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 22px;
+  justify-content: center;
+  position: relative;
+}
+
+.frame1 .p {
+  color: #ffffff;
+  font-family: var(--typography-caption-font-family);
+  font-size: var(--typography-caption-font-size);
+  font-style: var(--typography-caption-font-style);
+  font-weight: var(--typography-caption-font-weight);
+  letter-spacing: var(--typography-caption-letter-spacing);
+  line-height: var(--typography-caption-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame1 .match-centre {
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.frame1 .text-wrapper-4 {
+  color: #ee2536;
+  font-family: var(--typography-caption-font-family);
+  font-size: var(--typography-caption-font-size);
+  font-style: var(--typography-caption-font-style);
+  font-weight: var(--typography-caption-font-weight);
+  letter-spacing: var(--typography-caption-letter-spacing);
+  line-height: var(--typography-caption-line-height);
+  text-decoration: underline;
+}
+
+.frame1 .icon-instance-node {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  position: relative !important;
+}
+
+.frame1 .div-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 229px;
+  position: relative;
+  width: 265px;
+}
+
+.frame1 .div-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 583px;
+  position: relative;
+  width: 272px;
+}
+
+.frame1 .group {
+  flex: 1;
+  flex-grow: 1;
+  height: 709px;
+  position: relative;
+}
+
+.frame1 .match-card-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  width: 272px;
+}
+
+.frame1 .div-13 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 29px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .button {
+  all: unset;
+  align-items: center;
+  background-color: #ee2536;
+  border-radius: 7.01px;
+  box-shadow: var(--elevation-2);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 7.01px 19.29px;
+  position: relative;
+}
+
+.frame1 .base {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7.01px;
+  justify-content: center;
+  position: relative;
+}
+
+.frame1 .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: var(--button-large-font-family);
+  font-size: var(--button-large-font-size);
+  font-style: var(--button-large-font-style);
+  font-weight: var(--button-large-font-weight);
+  letter-spacing: var(--button-large-letter-spacing);
+  line-height: var(--button-large-line-height);
+  margin-top: -0.88px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame1 .div-14 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 86px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .frame1-wrapper-2 {
+  align-items: flex-start;
+  background-color: #1b1a1b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 110px;
+  padding: 20px 40px;
+  position: relative;
+  width: 1017px;
+}
+
+.frame1 .div-15 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 240px;
+  position: relative;
+}
+
+.frame1 .div-16 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 70px;
+  position: relative;
+  width: 572px;
+}
+
+.frame1 .text-wrapper-5 {
+  align-self: stretch;
+  color: #d2d2d2;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.frame1 .text-wrapper-6 {
+  align-self: stretch;
+  color: #777777;
+  flex: 1;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.2px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.frame1 .footer {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #000000;
+  border-bottom-style: none;
+  border-color: #ee2536;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 126px;
+  padding: 20px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.frame1 .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: 403.66px;
+}
+
+.frame1 .list {
+  height: 26.5px;
+  position: relative;
+  width: 486.02px;
+}
+
+.frame1 .item-link {
+  height: 17px;
+  left: 76px;
+  position: absolute;
+  top: 3px;
+  width: 80px;
+}
+
+.frame1 .WTT-logo-png {
+  background-image: url(./WTT-logo-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 26px;
+  position: relative;
+  top: -8px;
+}
+
+.frame1 .item-link-instance {
+  height: 17px !important;
+  left: 186px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.frame1 .item-link-2 {
+  height: 17px !important;
+  left: 228px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.frame1 .item-link-3 {
+  height: 17px !important;
+  left: 271px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 16px !important;
+}
+
+.frame1 .item-link-4 {
+  height: 17px !important;
+  left: 316px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.frame1 .item-link-5 {
+  height: 17px !important;
+  left: 359px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 14px !important;
+}
+
+.frame1 .item-link-6 {
+  height: 17px !important;
+  left: 403px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.frame1 .item-link-7 {
+  height: 17px !important;
+  left: 445px !important;
+  position: absolute !important;
+  top: 3px !important;
+  width: 11px !important;
+}

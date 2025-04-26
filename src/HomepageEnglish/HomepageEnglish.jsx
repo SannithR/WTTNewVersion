@@ -17,7 +17,11 @@ import { SimpleLanguageDropdown } from "../components/SimpleLanguageDropdown/Sim
 import { Translation } from "../components/Translation/Translation";
 import { useLanguage } from "../context/LanguageContext";
 import { getTranslation } from "../translations";
-import { Banner } from "../BannerImageUpdated/Banner/Banner";
+import { VideoPlayer } from "../components/VideoPlayer/VideoPlayer";
+import { Draws } from "../Draws/DrawsComponents/DrawsComponents";
+import { Results } from "../Results/ResultsComponent/ResultsComponent";
+import { Schedule } from "../Schedule/ScheduleComponent/ScheduleComponent";
+
 
 import image1 from "./image-1.png";
 import "./style.css";
@@ -92,9 +96,9 @@ export const HomepageEnglish = () => {
           {/*
             <div className="banner-image" />
             */ }
-            
+
             <div className="banner-image" >
-            <Banner />
+            <VideoPlayer />
             </div>
 
             <div className="app-latest-article">
