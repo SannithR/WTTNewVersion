@@ -6,6 +6,8 @@
   justify-content: center;
   position: relative;
   width: 121px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .nav-item .icon-button {
@@ -46,14 +48,29 @@
   text-align: center;
 }
 
-.nav-item.default {
+.nav-item.default:not(.active) {
   background-color: var(--global-Primary);
 }
 
-.nav-item.default .home {
+.nav-item.default:not(.active) .home {
   color: #ffffff;
 }
 
 .nav-item.variant-2 .home {
   color: #000000;
+}
+
+/* Active state styling - ensure this has higher specificity than default */
+.nav-item.active {
+  background-color: var(--global-Primary) !important;
+}
+
+.nav-item.active .home {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Hover effect for non-active items */
+.nav-item:not(.active):hover {
+  background-color: rgba(var(--global-Primary-rgb, 0, 0, 0), 0.1);
 }

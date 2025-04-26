@@ -17,7 +17,7 @@ export const Draws = () => {
   return (
     <div className="frame1">
       <div className="div">
-        <div className="div-2">
+        <div className="div-777">
           <div className="frame1-wrapper">
             <div className="div-wrapper">
               <div className="div-3">
@@ -136,7 +136,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -165,7 +165,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -204,7 +204,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -233,145 +233,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
-                          <span className="span">3</span>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="match-timings">
-                      <p className="p">Sun, 02 Feb 2025 - 19:10</p>
-
-                      <p className="match-centre">
-                        <span className="text-wrapper-4">Match Centre</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="div-7">
-                  <div className="match-card">
-                    <div className="playerlist">
-                      <div className="div-8">
-                        <div className="div-9">
-                          <Flags className="custom-flags" />
-                          <div className="icon-button">
-                            <div className="icon">
-                              <AppPlayerProfile className="app-player-profile-img-avatar" />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="listitem-text">
-                          <div className="div-10">
-                            <p className="wang-chuqin">
-                              <span className="span">Wang Chuqin</span>
-                            </p>
-
-                            <div className="text-wrapper-2">(1)</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="listitem-text-2">
-                        <p className="element">
-                          <span className="text-wrapper-3">3</span>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="playerlist-2">
-                      <div className="div-8">
-                        <div className="div-9">
-                          <Flags className="custom-flags" />
-                          <div className="icon-button">
-                            <div className="icon">
-                              <AppPlayerProfile className="app-player-profile-img-avatar" />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="listitem-text">
-                          <div className="div-10">
-                            <p className="wang-chuqin">
-                              <span className="span">Wang Chuqin</span>
-                            </p>
-
-                            <div className="text-wrapper-2">(1)</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="listitem-text-2">
-                        <p className="element">
-                          <span className="span">3</span>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="match-timings">
-                      <p className="p">Sun, 02 Feb 2025 - 19:10</p>
-
-                      <p className="match-centre">
-                        <span className="text-wrapper-4">Match Centre</span>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="match-card">
-                    <div className="playerlist">
-                      <div className="div-8">
-                        <div className="div-9">
-                          <Flags className="custom-flags" />
-                          <div className="icon-button">
-                            <div className="icon">
-                              <AppPlayerProfile className="app-player-profile-img-avatar" />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="listitem-text">
-                          <div className="div-10">
-                            <p className="wang-chuqin">
-                              <span className="span">Wang Chuqin</span>
-                            </p>
-
-                            <div className="text-wrapper-2">(1)</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="listitem-text-2">
-                        <p className="element">
-                          <span className="text-wrapper-3">3</span>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="playerlist-2">
-                      <div className="div-8">
-                        <div className="div-9">
-                          <Flags className="custom-flags" />
-                          <div className="icon-button">
-                            <div className="icon">
-                              <AppPlayerProfile className="app-player-profile-img-avatar" />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="listitem-text">
-                          <div className="div-10">
-                            <p className="wang-chuqin">
-                              <span className="span">Wang Chuqin</span>
-                            </p>
-
-                            <div className="text-wrapper-2">(1)</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -412,7 +274,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -441,7 +303,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -480,7 +342,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -509,7 +371,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -550,7 +412,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -579,7 +441,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -618,7 +480,7 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
                           <span className="text-wrapper-3">3</span>
                         </p>
                       </div>
@@ -647,7 +509,145 @@ export const Draws = () => {
                       </div>
 
                       <div className="listitem-text-2">
-                        <p className="element">
+                        <p className="element-draw">
+                          <span className="span">3</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="match-timings">
+                      <p className="p">Sun, 02 Feb 2025 - 19:10</p>
+
+                      <p className="match-centre">
+                        <span className="text-wrapper-4">Match Centre</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="div-7">
+                  <div className="match-card">
+                    <div className="playerlist">
+                      <div className="div-8">
+                        <div className="div-9">
+                          <Flags className="custom-flags" />
+                          <div className="icon-button">
+                            <div className="icon">
+                              <AppPlayerProfile className="app-player-profile-img-avatar" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="listitem-text">
+                          <div className="div-10">
+                            <p className="wang-chuqin">
+                              <span className="span">Wang Chuqin</span>
+                            </p>
+
+                            <div className="text-wrapper-2">(1)</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="listitem-text-2">
+                        <p className="element-draw">
+                          <span className="text-wrapper-3">3</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="playerlist-2">
+                      <div className="div-8">
+                        <div className="div-9">
+                          <Flags className="custom-flags" />
+                          <div className="icon-button">
+                            <div className="icon">
+                              <AppPlayerProfile className="app-player-profile-img-avatar" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="listitem-text">
+                          <div className="div-10">
+                            <p className="wang-chuqin">
+                              <span className="span">Wang Chuqin</span>
+                            </p>
+
+                            <div className="text-wrapper-2">(1)</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="listitem-text-2">
+                        <p className="element-draw">
+                          <span className="span">3</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="match-timings">
+                      <p className="p">Sun, 02 Feb 2025 - 19:10</p>
+
+                      <p className="match-centre">
+                        <span className="text-wrapper-4">Match Centre</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="match-card">
+                    <div className="playerlist">
+                      <div className="div-8">
+                        <div className="div-9">
+                          <Flags className="custom-flags" />
+                          <div className="icon-button">
+                            <div className="icon">
+                              <AppPlayerProfile className="app-player-profile-img-avatar" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="listitem-text">
+                          <div className="div-10">
+                            <p className="wang-chuqin">
+                              <span className="span">Wang Chuqin</span>
+                            </p>
+
+                            <div className="text-wrapper-2">(1)</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="listitem-text-2">
+                        <p className="element-draw">
+                          <span className="text-wrapper-3">3</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="playerlist-2">
+                      <div className="div-8">
+                        <div className="div-9">
+                          <Flags className="custom-flags" />
+                          <div className="icon-button">
+                            <div className="icon">
+                              <AppPlayerProfile className="app-player-profile-img-avatar" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="listitem-text">
+                          <div className="div-10">
+                            <p className="wang-chuqin">
+                              <span className="span">Wang Chuqin</span>
+                            </p>
+
+                            <div className="text-wrapper-2">(1)</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="listitem-text-2">
+                        <p className="element-draw">
                           <span className="span">3</span>
                         </p>
                       </div>
@@ -690,7 +690,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -719,7 +719,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -758,7 +758,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -787,7 +787,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -826,7 +826,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -855,7 +855,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -894,7 +894,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -923,7 +923,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -965,7 +965,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -994,7 +994,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -1033,7 +1033,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="text-wrapper-3">3</span>
                       </p>
                     </div>
@@ -1062,7 +1062,7 @@ export const Draws = () => {
                     </div>
 
                     <div className="listitem-text-2">
-                      <p className="element">
+                      <p className="element-draw">
                         <span className="span">3</span>
                       </p>
                     </div>
@@ -1104,7 +1104,7 @@ export const Draws = () => {
                   </div>
 
                   <div className="listitem-text-2">
-                    <p className="element">
+                    <p className="element-draw">
                       <span className="text-wrapper-3">3</span>
                     </p>
                   </div>
@@ -1133,7 +1133,7 @@ export const Draws = () => {
                   </div>
 
                   <div className="listitem-text-2">
-                    <p className="element">
+                    <p className="element-draw">
                       <span className="span">3</span>
                     </p>
                   </div>
@@ -1152,7 +1152,7 @@ export const Draws = () => {
         </div>
 
         <div className="div-13">
-          <button className="button">
+          <button className="button2">
             <div className="base">
               <button className="button-2">Load More</button>
             </div>
@@ -1172,7 +1172,7 @@ export const Draws = () => {
                   </p>
                 </div>
 
-                <button className="button">
+                <button className="button2">
                   <div className="base">
                     <button className="button-2">Sign Up</button>
                   </div>
@@ -1180,14 +1180,14 @@ export const Draws = () => {
               </div>
             </div>
 
-            <footer className="footer">
+            <footer className="footer2">
               <p className="text-wrapper-7">
                 Copyright 2024 World Table Tennis Pte. Ltd. All Rights Reserved
               </p>
 
               <div className="list">
                 <div className="item-link">
-                  <div className="WTT-logo-png" />
+                  <div className="WTT-logo-png-draw" />
                 </div>
 
                 <ItemLink className="item-link-instance" />

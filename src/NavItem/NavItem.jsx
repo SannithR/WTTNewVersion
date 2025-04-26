@@ -4,16 +4,13 @@ import { useLanguage } from "../context/LanguageContext";
 import { getTranslation } from "../translations";
 import "./nav-item.css";
 
-export const NavItem = ({ property1, className, text = "DRAWS", iconName, navKey }) => {
+export const NavItem = ({ property1, className, text = "DRAWS", iconName, navKey, isActive, onClick }) => {
   const { language } = useLanguage();
   // Determine which icon to use based on the navKey, text or property1
   const getIconPath = () => {
-    if (property1 === "default") {
-      return "/icons/Home.svg";
-    }
-
     // Map navigation keys to corresponding icons
     const iconMap = {
+      "home": "/icons/Home.svg",
       "draws": "/icons/Name=Draws.svg",
       "results": "/icons/Name=Results.svg",
       "schedule": "/icons/Name=Schedule.svg",
@@ -39,8 +36,14 @@ export const NavItem = ({ property1, className, text = "DRAWS", iconName, navKey
     return iconName || (navKey && iconMap[navKey]) || iconMap[text] || "starsharp.svg";
   };
 
+  // Determine the CSS class based on active state
+  const activeClass = isActive ? "active" : "";
+
   return (
-    <div className={`nav-item ${property1} ${className}`}>
+    <div
+      className={`nav-item ${property1} ${className} ${activeClass}`}
+      onClick={() => onClick && onClick(navKey)}
+    >
       <div className="icon-button">
         <div className="icon">
           <img className="star-sharp" src={getIconPath()} alt={`${text} icon`} />
@@ -48,9 +51,7 @@ export const NavItem = ({ property1, className, text = "DRAWS", iconName, navKey
       </div>
 
       <div className="home">
-        {property1 === "default" && <>{getTranslation(language, 'home')}</>}
-
-        {property1 === "variant-2" && <>{text}</>}
+        {navKey === "home" ? <>{getTranslation(language, 'home')}</> : <>{text}</>}
       </div>
     </div>
   );
@@ -61,4 +62,6 @@ NavItem.propTypes = {
   text: PropTypes.string,
   iconName: PropTypes.string, // Optional custom icon path
   navKey: PropTypes.string, // Language-independent key for navigation item
+  isActive: PropTypes.bool, // Whether this nav item is currently active
+  onClick: PropTypes.func, // Click handler for the nav item
 };

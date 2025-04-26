@@ -101,7 +101,7 @@
 }
 
 .homepage-english .main-content {
-  align-items: flex-end;
+
   display: flex;
   flex-direction: column;
   height: 100vh; /* Use viewport height instead of fixed height */
@@ -109,6 +109,7 @@
   position: relative;
   width: calc(100% - 121px); /* Subtract sidenav width from total width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
+  background-color: black;
 }
 
 .homepage-english .main-content::-webkit-scrollbar {
@@ -153,7 +154,7 @@
 }
 
 .homepage-english .latest {
-  color: #333333;
+  color: white;
   font-family: "Inter-Regular", Helvetica;
   font-size: 25.9px;
   font-weight: 400;
@@ -552,7 +553,7 @@
   max-width: 1421.39px;
   padding: 10px 5px 0px 10px;
   position: absolute;
-  top: 324px;
+  top: 515px;
   width: 1421px;
 }
 
@@ -617,7 +618,7 @@
   padding: 32px 24px;
   position: relative;
   width: 100%;
-  top:330px
+  top:507px
 }
 
 .homepage-english .frame-15 {
@@ -801,7 +802,7 @@
   padding: 32px;
   position: relative;
   width: 100%;
-  top:330px
+  top:500px
 }
 
 .homepage-english .sponsors-partners {
@@ -1032,7 +1033,7 @@
   padding: 32px;
   position: relative;
   width: 100%;
-  top:330px
+  top:500px
 }
 
 .homepage-english .frame-19 {
@@ -1161,7 +1162,7 @@
   height: 354.5px;
   position: relative;
   width: 100%;
-  top:330px
+  top:500px
 }
 
 .homepage-english .background-border-wrapper {
@@ -1385,7 +1386,7 @@
   justify-content: space-between;
   padding: 32px 16px;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .homepage-english .card-content {
@@ -1691,6 +1692,37 @@
   margin-left: -10.00px;
   margin-right: -10.00px;
   position: relative;
+}
+
+/* Component container for Draws, Results, Schedule */
+/* .homepage-english .component-container {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+} */
+
+/* Placeholder for nav items without specific components */
+.homepage-english .placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-english .placeholder h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--global-Primary);
+}
+
+.homepage-english .placeholder p {
+  font-size: 16px;
+  color: #666;
 }
 
 /* Media Queries for Responsive Design */

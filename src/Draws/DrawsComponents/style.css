@@ -1,7 +1,7 @@
 .frame1 {
   align-items: flex-start;
   background-color: #000000;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-top-style: solid;
   border-top-width: 2px;
   display: flex;
@@ -23,7 +23,7 @@
   width: 100%;
 }
 
-.frame1 .div-2 {
+.frame1 .div-777 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -81,7 +81,7 @@
 }
 
 .frame1 .women-s-doubles {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: "Inter-Bold", Helvetica;
   font-size: 14px;
   font-weight: 700;
@@ -306,6 +306,7 @@
   gap: 18px;
   position: relative;
   width: 272px;
+  top:45px
 }
 
 .frame1 .div-7 {
@@ -338,7 +339,7 @@
   border-radius: 8px;
   display: flex;
   flex: 0 0 auto;
-  gap: 35px;
+
   padding: 4px 12px;
   position: relative;
   width: 100%;
@@ -452,7 +453,7 @@
   position: relative;
 }
 
-.frame1 .element {
+.frame1 .element-draw {
   align-self: stretch;
   color: transparent;
   font-family: "Inter-Bold", Helvetica;
@@ -464,7 +465,7 @@
 }
 
 .frame1 .text-wrapper-3 {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: var(--typography-body1-font-family);
   font-size: var(--typography-body1-font-size);
   font-style: var(--typography-body1-font-style);
@@ -476,7 +477,7 @@
 .frame1 .playerlist-2 {
   align-items: center;
   align-self: stretch;
-  background-color: #ee2536;
+  background-color: var(--global-Primary);
   border: 1px solid;
   border-color: #ffffff;
   border-radius: 8px;
@@ -524,7 +525,7 @@
 }
 
 .frame1 .text-wrapper-4 {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: var(--typography-caption-font-family);
   font-size: var(--typography-caption-font-size);
   font-style: var(--typography-caption-font-style);
@@ -585,10 +586,10 @@
   width: 100%;
 }
 
-.frame1 .button {
+.frame1 .button2 {
   all: unset;
   align-items: center;
-  background-color: #ee2536;
+  background-color: var(--global-Primary);
   border-radius: 7.01px;
   box-shadow: var(--elevation-2);
   box-sizing: border-box;
@@ -693,12 +694,12 @@
   white-space: nowrap;
 }
 
-.frame1 .footer {
+.frame1 .footer2 {
   align-items: flex-start;
   align-self: stretch;
   background-color: #000000;
   border-bottom-style: none;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-left-style: none;
   border-right-style: none;
   border-top-style: solid;
@@ -739,7 +740,7 @@
   width: 80px;
 }
 
-.frame1 .WTT-logo-png {
+.frame1 .WTT-logo-png-draw{
   background-image: url(./WTT-logo-png.png);
   background-position: 50% 50%;
   background-size: cover;

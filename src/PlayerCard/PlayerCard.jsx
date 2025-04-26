@@ -5,7 +5,7 @@ import "./playercard.css";
 export const Playercard = ({ country, appCountryFlagCnClassName }) => {
   return (
     <div className="playercard">
-      <div className="app-player-profile" />
+      <div className="app-player-profile-home" />
 
       <div className="frame">
         <div className="div">

@@ -11,7 +11,7 @@
   width: 343px;
 }
 
-.playercard .app-player-profile {
+.playercard .app-player-profile-home {
   background-image: url(./image.png);
   /* background-position: 50% 50%; */
   background-size: cover;

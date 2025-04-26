@@ -1,7 +1,7 @@
 .frame2 {
   align-items: flex-start;
   background-color: #000000;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-top-style: solid;
   border-top-width: 2px;
   display: flex;
@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-.frame2 .div-2 {
+.frame2 .div-777{
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -82,7 +82,7 @@
 }
 
 .frame2 .women-s-doubles {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: "Inter-Bold", Helvetica;
   font-size: 14px;
   font-weight: 700;
@@ -518,6 +518,7 @@
   gap: 86px;
   position: relative;
   width: 100%;
+  background-color: black;
 }
 
 .frame2 .frame2-wrapper-2 {
@@ -576,7 +577,7 @@
   white-space: nowrap;
 }
 
-.frame2 .footer {
+.frame2 .footer-result{
   align-items: flex-start;
   align-self: stretch;
   background-color: #000000;
@@ -622,7 +623,7 @@
   width: 80px;
 }
 
-.frame2 .WTT-logo-png {
+.frame2 .WTT-logo-png-result {
   background-image: url(./WTT-logo-png.png);
   background-position: 50% 50%;
   background-size: cover;

@@ -15,7 +15,7 @@ export const Results = () => {
   return (
     <div className="frame2">
       <div className="div">
-        <div className="div-2">
+        <div className="div-777">
           <div className="div-3">
             <div className="div-4">
               <div className="div-5">
@@ -1736,14 +1736,14 @@ export const Results = () => {
               </div>
             </div>
 
-            <footer className="footer">
+            <footer className="footer-result">
               <p className="text-wrapper-9">
                 Copyright 2024 World Table Tennis Pte. Ltd. All Rights Reserved
               </p>
 
               <div className="list">
                 <div className="item-link">
-                  <div className="WTT-logo-png" />
+                  <div className="WTT-logo-png-result" />
                 </div>
 
                 <ItemLink className="item-link-instance" />

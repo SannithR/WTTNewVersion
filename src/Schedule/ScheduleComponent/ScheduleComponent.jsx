@@ -13,7 +13,7 @@ export const Schedule = () => {
   return (
     <div className="frame3">
       <div className="frame3-wrapper">
-        <div className="div-2">
+        <div className="div-777">
           <div className="frame3-wrapper-2">
             <div className="frame3-wrapper-3">
               <div className="div-3">
@@ -166,7 +166,7 @@ export const Schedule = () => {
                   </div>
                 </div>
 
-                <div className="div-2">
+                <div className="div-777">
                   <div className="section-header">
                     <div className="text-wrapper-2">MAIN DRAW</div>
                   </div>
@@ -355,7 +355,7 @@ export const Schedule = () => {
               </div>
 
               <div className="div-7">
-                <button className="button">
+                <button className="button-schedule">
                   <div className="base">
                     <button className="button-2">Load More</button>
                   </div>
@@ -373,7 +373,7 @@ export const Schedule = () => {
                         </p>
                       </div>
 
-                      <button className="button">
+                      <button className="button-schedule">
                         <div className="base">
                           <button className="button-2">Sign Up</button>
                         </div>
@@ -381,7 +381,7 @@ export const Schedule = () => {
                     </div>
                   </div>
 
-                  <footer className="footer">
+                  <footer className="footer-schedule">
                     <p className="text-wrapper-7">
                       Copyright 2024 World Table Tennis Pte. Ltd. All Rights
                       Reserved

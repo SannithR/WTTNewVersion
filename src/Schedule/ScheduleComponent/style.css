@@ -1,7 +1,7 @@
 .frame3 {
   align-items: flex-start;
   background-color: #000000;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-top-style: solid;
   border-top-width: 2px;
   display: flex;
@@ -22,7 +22,7 @@
   width: 100%;
 }
 
-.frame3 .div-2 {
+.frame3 .div-777 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -79,7 +79,7 @@
 }
 
 .frame3 .women-s-doubles {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: "Inter-Bold", Helvetica;
   font-size: 14px;
   font-weight: 700;
@@ -151,13 +151,13 @@
   gap: 16px;
   padding: 10px;
   position: relative;
-  width: 100%;
+
 }
 
 .frame3 .div-6 {
   align-items: flex-start;
   align-self: stretch;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-top-style: solid;
   border-top-width: 1px;
   display: flex;
@@ -186,7 +186,7 @@
 }
 
 .frame3 .text-wrapper-2 {
-  color: #ee2536;
+  color: var(--global-Primary);
   font-family: "Helvetica Neue-Bold", Helvetica;
   font-size: 16px;
   font-weight: 700;
@@ -208,6 +208,7 @@
   padding: 0px 83px;
   position: relative;
   width: 100%;
+background-color: black;
 }
 
 .frame3 .section-header-2 {
@@ -251,11 +252,12 @@
   flex: 0 0 auto;
   position: relative;
   width: 100%;
+  background-color: black;
 }
 
 .frame3 .data-2 {
   align-items: center;
-  background-color: #ee2536;
+  background-color: var(--global-Primary);
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #dee2e6;
@@ -264,6 +266,7 @@
   padding: 23px 28px;
   position: relative;
   width: 82.56px;
+  height: 104px;
 }
 
 .frame3 .jan {
@@ -330,7 +333,7 @@
 .frame3 .data-3 {
   align-items: center;
   align-self: stretch;
-  background-color: #ee2536;
+  background-color: var(--global-Primary);
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #dee2e6;
@@ -352,10 +355,10 @@
   width: 100%;
 }
 
-.frame3 .button {
+.frame3 .button-schedule {
   all: unset;
   align-items: center;
-  background-color: #ee2536;
+  background-color: var(--global-Primary);
   border-radius: 7.01px;
   box-shadow: var(--elevation-2);
   box-sizing: border-box;
@@ -414,7 +417,7 @@
   height: 110px;
   padding: 20px 40px;
   position: relative;
-  width: 1017px;
+  /* width: 1017px; */
 }
 
 .frame3 .div-9 {
@@ -460,12 +463,12 @@
   white-space: nowrap;
 }
 
-.frame3 .footer {
+.frame3 .footer-schedule {
   align-items: flex-start;
   align-self: stretch;
   background-color: #000000;
   border-bottom-style: none;
-  border-color: #ee2536;
+  border-color: var(--global-Primary);
   border-left-style: none;
   border-right-style: none;
   border-top-style: solid;
@@ -475,7 +478,7 @@
   gap: 126px;
   padding: 20px 12px;
   position: relative;
-  width: 100%;
+
 }
 
 .frame3 .text-wrapper-7 {
