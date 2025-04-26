@@ -204,7 +204,7 @@
   align-self: stretch;
   display: flex;
   flex: 0 0 auto;
-  gap: 254px;
+  gap: 160px;
   padding: 0px 83px;
   position: relative;
   width: 100%;
@@ -263,7 +263,7 @@ background-color: black;
   border-color: #dee2e6;
   display: flex;
   flex-direction: column;
-  padding: 23px 28px;
+  padding: 50px 28px;
   position: relative;
   width: 82.56px;
   height: 104px;
@@ -339,7 +339,7 @@ background-color: black;
   border-color: #dee2e6;
   display: flex;
   flex-direction: column;
-  padding: 23px 28px;
+  padding: 85px 28px;
   position: relative;
   width: 82.56px;
 }

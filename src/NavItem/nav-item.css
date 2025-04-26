@@ -21,7 +21,7 @@
   overflow: hidden;
   padding: 8px;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav-item .icon {

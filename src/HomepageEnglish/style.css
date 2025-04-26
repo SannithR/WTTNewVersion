@@ -65,13 +65,13 @@
 .homepage-english .frame-8 {
   align-items: flex-start;
   display: flex;
-  height: 100vh; /* Use viewport height instead of fixed height */
+  height: 94vh; /* Use viewport height instead of fixed height */
   left: 0;
   position: fixed;
   top: 64px;
   width: 100%; /* Use percentage instead of fixed width */
   max-width: 100vw; /* Ensure it doesn't exceed viewport width */
-  overflow:scroll;
+  /* overflow:scroll; */
 }
 
 .homepage-english .custom-sidenav {
@@ -1078,7 +1078,7 @@
 }
 
 .homepage-english .WTT-logo-png {
-  /* background-image: url(./WTT-logo-png.png); */
+  background-image: url(../../src/Draws/DrawsComponents/WTT-logo-png.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 82px;
