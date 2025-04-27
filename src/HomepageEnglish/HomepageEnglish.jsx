@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ArrowDropDownFilled } from "../ArrowDropDownFilled/ArrowDropDownFilled";
 import { Component6 } from "../Component6/Component6";
 import { Component7 } from "../Component7/Component7";
@@ -12,9 +12,7 @@ import { Component7_7 } from "../Component77/Component7_7";
 import { IconComponentNode } from "../IconComponentNode/IconComponentNode";
 import { NavItem } from "../NavItem/NavItem";
 import { Playercard } from "../PlayerCard/PlayerCard";
-import { LanguageDropdown } from "../components/LanguageDropdown/LanguageDropdown";
 import { SimpleLanguageDropdown } from "../components/SimpleLanguageDropdown/SimpleLanguageDropdown";
-import { Translation } from "../components/Translation/Translation";
 import { useLanguage } from "../context/LanguageContext";
 import { getTranslation } from "../translations";
 import { VideoPlayer } from "../components/VideoPlayer/VideoPlayer";
@@ -22,15 +20,17 @@ import { Draws } from "../Draws/DrawsComponents/DrawsComponents";
 import { Results } from "../Results/ResultsComponent/ResultsComponent";
 import { Schedule } from "../Schedule/ScheduleComponent/ScheduleComponent";
 
-
-import image1 from "./image-1.png";
 import "./style.css";
 import "../styleguide1.css"
 
 export const HomepageEnglish = () => {
-  const { language, direction } = useLanguage();
+  const { language, direction, getLocaleCode } = useLanguage();
   // State to track the active navigation item
   const [activeNavItem, setActiveNavItem] = useState("home");
+  // State to store tournament data from API
+  const [tournamentData, setTournamentData] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   // Function to handle navigation item clicks
   const handleNavItemClick = (navKey) => {
@@ -39,6 +39,34 @@ export const HomepageEnglish = () => {
 
   // Function to get translation
   const t = (key) => getTranslation(language, key);
+
+  // Fetch tournament data when language changes
+  useEffect(() => {
+    const fetchTournamentData = async () => {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const locale = getLocaleCode();
+        const response = await fetch(`https://rdv.radiant.digital/api/smash-tournaments?locale=${locale}&populate=localizations`);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log(`Tournament data for ${locale}:`, data);
+        setTournamentData(data);
+      } catch (err) {
+        console.error("Error fetching tournament data:", err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTournamentData();
+  }, [language, getLocaleCode]);
 
   return (
     <div className={`homepage-english ${direction}`} dir={direction}>
@@ -574,9 +602,19 @@ export const HomepageEnglish = () => {
             <div className="paper">
               <div className="card-content">
                 <div className="logo">
-                  <img className="image" alt="Image" src={image1} />
+                  {loading ? (
+                    <div className="loading-image">Loading...</div>
+                  ) : error ? (
+                    <div className="error-image">Error loading image</div>
+                  ) : (
+                    <img
+                      className="image"
+                      alt="Tournament Image"
+                      src={tournamentData?.data?.[0]?.attributes?.place || "/placeholder-image.png"}
+                    />
+                  )}
 
-                  <div className="text-wrapper-17">CHAMPIONS 2025</div>
+                  <div className="text-wrapper-17">CHAMPIONS {tournamentData?.data?.[0]?.attributes?.Year || "2025"}</div>
                 </div>
               </div>
 
@@ -646,7 +684,9 @@ export const HomepageEnglish = () => {
                 </div>
               </div>
 
-              <div className="logo-2" />
+              <div className="logo-2" style={{
+                backgroundImage: loading ? 'none' : error ? 'none' : `url(${tournamentData?.data?.[0]?.attributes?.game || "/public/logo-2.png"})`
+              }} />
             </div>
           </div>
         </div>
@@ -655,7 +695,17 @@ export const HomepageEnglish = () => {
           <div className="toolbar-wrapper">
             <div className="toolbar">
               <div className="left-side">
-                <img className="img" alt="Image" src={image1} />
+                {loading ? (
+                  <div className="loading-image">Loading...</div>
+                ) : error ? (
+                  <div className="error-image">Error loading image</div>
+                ) : (
+                  <img
+                    className="img"
+                    alt="Tournament Logo"
+                    src={tournamentData?.data?.[0]?.attributes?.place || "/placeholder-image.png"}
+                  />
+                )}
               </div>
 
               <div className="min-height" />

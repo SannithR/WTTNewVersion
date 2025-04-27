@@ -1733,6 +1733,26 @@
   color: #666;
 }
 
+/* Loading and error states for images */
+.homepage-english .loading-image,
+.homepage-english .error-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 4px;
+}
+
+.homepage-english .error-image {
+  background-color: #ffeeee;
+  color: #cc0000;
+}
+
 /* Media Queries for Responsive Design */
 
 /* Large Screens (Desktops) */
