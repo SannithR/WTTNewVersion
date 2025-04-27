@@ -1079,11 +1079,13 @@
 
 .homepage-english .WTT-logo-png {
   background-image: url(../../src/Draws/DrawsComponents/WTT-logo-png.png);
+  /* background-image: url(/public/wtt-logo-png.png); */
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 82px;
   position: relative;
-  width: 247.48px;
+  width: 180px;
 }
 
 .homepage-english .component-9 {
@@ -1096,22 +1098,28 @@
 
 .homepage-english .app-store-png {
   align-self: stretch;
+
   background-image: url(/public/app-store-png.png);
   background-position: 50% 50%;
-  /* background-size: cover; */
-  height: 80.42px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
   position: relative;
   width: 100%;
+  cursor: pointer;
 }
 
 .homepage-english .google-play-png {
+
   align-self: stretch;
   background-image: url(/public/google-play-png.png);
   background-position: 50% 50%;
-  /* background-size: cover; */
-  height: 80.42px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
   position: relative;
   width: 100%;
+  cursor: pointer;
 }
 
 .homepage-english .vertical-border {
