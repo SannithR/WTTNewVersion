@@ -19,6 +19,7 @@ import { VideoPlayer } from "../components/VideoPlayer/VideoPlayer";
 import { Draws } from "../Draws/DrawsComponents/DrawsComponents";
 import { Results } from "../Results/ResultsComponent/ResultsComponent";
 import { Schedule } from "../Schedule/ScheduleComponent/ScheduleComponent";
+import { Players } from "../Players/Players/Players";
 
 import "./style.css";
 import "../styleguide1.css"
@@ -175,12 +176,18 @@ export const HomepageEnglish = () => {
                 <Schedule />
               </div>
             )}
+            {activeNavItem === "players" && (
+              <div className="component-container">
+                <Players />
+              </div>
+            )}
 
             {/* For other nav items, show a placeholder */}
             {(activeNavItem !== "home" &&
               activeNavItem !== "draws" &&
               activeNavItem !== "results" &&
-              activeNavItem !== "schedule") && (
+              activeNavItem !== "schedule"&& 
+              activeNavItem !== "players" )&&(
               <div className="component-container">
                 <div className="placeholder">
                   <h2>{t(activeNavItem)}</h2>

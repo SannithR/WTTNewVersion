@@ -104,7 +104,7 @@
 
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Use viewport height instead of fixed height */
+  height: 95vh; /* Use viewport height instead of fixed height */
   overflow-y: scroll;
   position: relative;
   width: calc(100% - 121px); /* Subtract sidenav width from total width */
